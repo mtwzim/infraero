@@ -1,0 +1,26 @@
+{
+  "name": "infraero-promise",
+  "version": "1.0.0",
+  "description": "Um simples meio de obter informações da infraero",
+  "main": "src/infraero-promise.js",
+  "repository": "git@github.com:mtwzim/infraero-promise.git",
+  "author": "Matheus Vinícius <matheus.vinicius@imagineapps.com.br>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mtwzim/infraero-promise/issues"
+  },
+  "keywords": [
+    "infraero",
+    "voos",
+    "aeroporto",
+    "voo",
+    "promise",
+    "aviacao"
+  ],
+  "homepage": "https://github.com/mtwzim/infraero-promise",
+  "devDependencies": {
+    "eslint": "^7.14.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1"
+  }
+}
