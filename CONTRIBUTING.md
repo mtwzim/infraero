@@ -1,6 +1,6 @@
 # Como contribuir com o Infraero Promise
 
-Todas as contribuições são **bem vindas**, basta apenas criar uma pull request
+Todas as contribuições são **bem vindas**, basta apenas criar uma pull request ou uma issue
 
 ## Instalando o Infraero Promise
 
