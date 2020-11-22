@@ -1,19 +1,19 @@
 {
-  "name": "infraero-promise",
-  "version": "1.0.1",
+  "name": "infraero",
+  "version": "1.0.3",
   "description": "Um simples meio de obter informações da infraero",
-  "main": "dist/infraero-promise.min.js",
+  "main": "dist/infraero.min.js",
   "scripts": {
     "dev": "nodemon --watch src/ --exec \"npm run build\"",
-    "build": "rollup -c && uglifyjs dist/infraero-promise.js -cm -o dist/infraero-promise.min.js",
+    "build": "rollup -c && uglifyjs dist/infraero.js -cm -o dist/infraero.min.js",
     "example": "node example/index.js",
     "prepublishOnly": "npm run build"
   },
-  "repository": "git@github.com:mtwzim/infraero-promise.git",
+  "repository": "git@github.com:mtwzim/infraero.git",
   "author": "Matheus Vinícius <mtwzim@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mtwzim/infraero-promise/issues"
+    "url": "https://github.com/mtwzim/infraero/issues"
   },
   "keywords": [
     "infraero",
@@ -23,7 +23,7 @@
     "promise",
     "aviacao"
   ],
-  "homepage": "https://github.com/mtwzim/infraero-promise",
+  "homepage": "https://github.com/mtwzim/infraero",
   "devDependencies": {
     "@babel/cli": "^7.12.7",
     "@babel/core": "^7.12.7",

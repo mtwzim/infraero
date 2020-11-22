@@ -1,7 +1,7 @@
 import babel from 'rollup-plugin-babel';
 import commonjs from 'rollup-plugin-commonjs';
 
-const input = 'src/infraero-promise.js';
+const input = 'src/infraero.js';
 const defaultPlugins = [
   babel({
     babelrc: false,
@@ -16,7 +16,7 @@ export default [
     input,
     plugins: [].concat(defaultPlugins, [commonjs()]),
     output: {
-      file: 'dist/infraero-promise.js',
+      file: 'dist/infraero.js',
       format: 'umd',
       name: 'cep',
     },
