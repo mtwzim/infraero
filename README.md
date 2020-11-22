@@ -1,8 +1,8 @@
 <h1 align="center">
   <br />
-  <a href="hhttp://www4.infraero.gov.br/"><img src="https://github.com/mtwzim/infraero-api/blob/main/content/infraero.png" alt="Infraero" width="200"></a>
+  <a href="hhttp://www4.infraero.gov.br/"><img src="https://github.com/mtwzim/infraero/blob/main/content/infraero.png" alt="Infraero" width="200"></a>
   <br />
-  Infraero Promise
+  Infraero
   <br />
 </h1>
 
@@ -20,4 +20,20 @@ $ npm install --save infraero-promise
 
 ```
 $ yarn add infraero-promise
+```
+
+### Como utilizar
+
+Note que **SBRF** é o código ICAN do aeroporto, ainda estamos desenvolvendo uma funcionalidade para listar todos os ican's da Infraero
+
+#### Listar partidas de um aeroporto
+
+```
+const { getVoosPartida, getVoosChegada } = require('../dist/infraero-promise');
+
+async function infraeroPromiseExample() {
+  getVoosPartida('SBRF').then(console.log).catch(console.error);
+}
+
+infraeroPromiseExample();
 ```
