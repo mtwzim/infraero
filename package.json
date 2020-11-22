@@ -1,6 +1,6 @@
 {
   "name": "infraero-promise",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Um simples meio de obter informações da infraero",
   "main": "dist/infraero-promise.min.js",
   "scripts": {
@@ -10,7 +10,7 @@
     "prepublishOnly": "npm run build"
   },
   "repository": "git@github.com:mtwzim/infraero-promise.git",
-  "author": "Matheus Vinícius <matheus.vinicius@imagineapps.com.br>",
+  "author": "Matheus Vinícius <mtwzim@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/mtwzim/infraero-promise/issues"
