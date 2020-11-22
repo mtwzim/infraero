@@ -2,7 +2,7 @@
   "name": "infraero-promise",
   "version": "1.0.0",
   "description": "Um simples meio de obter informações da infraero",
-  "main": "src/infraero-promise.js",
+  "main": "dist/infraero-promise.min.js",
   "scripts": {
     "dev": "nodemon --watch src/ --exec \"npm run build\"",
     "build": "rollup -c && uglifyjs dist/infraero-promise.js -cm -o dist/infraero-promise.min.js",
