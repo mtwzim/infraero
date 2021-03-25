@@ -13,13 +13,13 @@
 #### npm
 
 ```
-$ npm install --save infraero-promise
+$ npm install --save infraero
 ```
 
 #### yarn
 
 ```
-$ yarn add infraero-promise
+$ yarn add infraero
 ```
 
 ### Como utilizar
@@ -29,7 +29,7 @@ Note que **SBRF** é o código ICAN do aeroporto, ainda estamos desenvolvendo um
 #### Listar partidas de um aeroporto
 
 ```
-const { getVoosPartida, getVoosChegada } = require('../dist/infraero-promise');
+const { getVoosPartida, getVoosChegada } = require('infraero');
 
 async function infraeroPromiseExample() {
   getVoosPartida('SBRF').then(console.log).catch(console.error);
